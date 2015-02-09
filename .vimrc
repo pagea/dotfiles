@@ -1,7 +1,8 @@
 " cosmetic stuff
-colorscheme zenburn
+colorscheme monokai
 syntax on
 set t_Co=256
+set t_ut=
 
 "colored columns after 80 characters
 let &colorcolumn="80,".join(range(120,999),",")
