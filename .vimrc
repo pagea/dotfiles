@@ -19,3 +19,13 @@ set softtabstop=4
 
 " tex plugin
 filetype plugin on
+" infinite undo
+set undodir=~/.vim/undodir
+
+" custom bindings
+let mapleader=","
+nmap <F8> :TagbarToggle<CR>
+" easymotion bindings
+map <Leader> <Plug>(easymotion-prefix)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
