@@ -15,3 +15,4 @@ rm -rf .git
 mv ./.* ./* ~/
 # Delete dotfiles directory now that everything has been copied
 rm -rf ~/dotfiles
+rm ~/provision.sh
