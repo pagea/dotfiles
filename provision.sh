@@ -13,3 +13,5 @@ apt-get install -y git vim python3 ipython3 tmux fakeroot build-essential \
 rm -rf .git
 # Move everything to the home directory
 mv ./.* ./* ~/
+# Delete dotfiles directory now that everything has been copied
+rm -rf ~/dotfiles
